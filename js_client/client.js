@@ -34,7 +34,7 @@ function handleAuthData(authData, callback){
         callback()
     }
 }
-
+ 
 function writeProduct(data){
     if(productContianer){
         productContianer.innerHTML ="<pre>" + JSON.stringify(data, null, 4) + "<pre>"
